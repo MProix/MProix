@@ -13,7 +13,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
-   sodipodi:docname="mouth2.svg">
+   sodipodi:docname="mouth.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -23,7 +23,7 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
+     inkscape:zoom="1.979899"
      inkscape:cx="482.07827"
      inkscape:cy="689.36499"
      inkscape:document-units="mm"
@@ -43,7 +43,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -54,7 +54,8 @@
      transform="translate(-12.883766,-20.055856)">
     <path
        style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 70.694835,158.46504 6.465459,2.17484 h 4.231563 l 10.174351,-1.29634 12.482072,-6.31338"
-       id="path870" />
+       d="m 70.694835,158.46504 c 0,0 4.221506,1.80754 6.465459,2.17484 1.391997,0.22785 3.362175,0.48444 5.047988,0.39986 3.166153,-0.15886 6.089243,-0.69402 9.357926,-1.6962 4.457807,-1.36677 12.482072,-6.31338 12.482072,-6.31338"
+       id="path870"
+       sodipodi:nodetypes="csasc" />
   </g>
 </svg>
