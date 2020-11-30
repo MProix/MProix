@@ -21,7 +21,7 @@
             <div id="text_content">
                 <h2>Compétences techniques</h2>
                 <ul>
-                    <li>référencement web (par exemple : www.esther-aline-laiser.com)</li>
+                    <li>référencement web (par exemple : <a href="https://www.esther-aline-kaiser.com">https://www.esther-aline-kaiser.com</a>)</li>
                     <li>conception et construction d’une interface utilisateur</li>
                     <li>articulation algorithme/interface</li>
                     <li>sites en responsive web design</li>

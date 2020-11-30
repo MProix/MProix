@@ -2,14 +2,85 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     line-height: normal;
 }
-ul{
-    line-height: 1.5;
+#jsAnimation{
+    position: relative;
+    width: 100%;
+    background-image: url(../img/kb2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
 }
+/*---------------------------------css for little screens------------------------------*/
+/*=====================================================================================*/
 @media (max-width: 991px) {
+    /*-----------------------------------home part-------------------------------------*/
+    .navbar{
+        justify-content: left;
+    }
+    .navbar-brand{
+        margin-right: 0px;
+    }
+    #avatarDiv{
+        position: absolute;
+            /* opacity: 0.5; */
+        width: 100%;
+        max-height: 50%;
+    }
+    #nose,#eyes,#face,#mouth,#shoulders,#hair{
+        position: absolute;
+        top: 1vh;
+        max-height: 100%;
+        right: -50%;
+    }
+    .facePartPlaced{
+        right: 1vw !important;
+        transition: right 1s cubic-bezier(.68,-0.55,.27,1);
+        -webkit-transition: right 1s cubic-bezier(.98,-0.55,.1,1.1);
+    }
+    .facePlaced{
+        transition-delay: 0s;
+        -webkit-transition-delay: 0s;
+    }
+    .hairPlaced{
+        transition-delay: 0.2s;
+        -webkit-transition-delay: 0.2s;
+    }
+    .shouldersPlaced{
+        transition-delay: 0.4s;
+        -webkit-transition-delay: 0.4s;
+    }
+    .mouthPlaced{
+        transition-delay: 0.6s;
+        -webkit-transition-delay: 0.6s;
+    }
+    .eyesPlaced{
+        transition-delay: 0.8;
+        -webkit-transition-delay: 0.8s;
+    }
+    .nosePlaced{
+        transition-delay: 1s;
+        -webkit-transition-delay: 1s;
+    }
+    /*.avatarDivBig{
+        height: 50vh; to comment after
+        transition: all 1s cubic-bezier(.68,-0.55,.27,1.55);
+        -webkit-transition: all 1s cubic-bezier(.98,-0.55,.01,1.55);
+    }
+    .avatarPart{
+        position: absolute;
+        right: 1vw;
+        /* transform: translate(-50%); to comment after
+        max-height: 100%;
+        top: 3vh;
+        max-width: 35%;
+    }*/
     /*-----------------------------------cv part--------------------------------------*/
     #main_content_box{
         display: flex;
         font-size: 1.7vw;
+    }
+    #main_content_box ul{
+        line-height: 1.5;
     }
     #left_main_content{
         width: 0%;
@@ -61,12 +132,13 @@ ul{
         font-size: 1.8vw;
         font-weight: bold;
         margin-top: 6%;
+        line-height: normal;
     }
     #my_infos h3{
         font-weight: bolder;
         font-size: 3vw;
         margin-bottom: 10%;
-        margin-top: 80%;
+        margin-top: 75%;
     }
     #left_cv_part{
         position: absolute;
@@ -107,11 +179,58 @@ ul{
         margin-bottom: 3%;
     }
 }
+/*---------------------------------css for big screens---------------------------------*/
+/*=====================================================================================*/
 @media (min-width: 992px){
-    /*-----------------------------------cv part--------------------------------------*/
+    /*-----------------------------------home part-------------------------------------*/
+    #avatarDiv{
+        position: absolute;
+            /* opacity: 0.5; */
+        width: 100%;
+        max-height: 100%;
+    }
+    #nose,#eyes,#face,#mouth,#shoulders,#hair{
+        position: absolute;
+        top: 1vh;
+        max-height: 100%;
+        right: -50%;
+    }
+    .facePartPlaced{
+        right: 1vw !important;
+        transition: right 1s cubic-bezier(.68,-0.55,.27,1);
+        -webkit-transition: right 1s cubic-bezier(.98,-0.55,.1,1.1);
+    }
+    .facePlaced{
+        transition-delay: 0s;
+        -webkit-transition-delay: 0s;
+    }
+    .hairPlaced{
+        transition-delay: 0.1s;
+        -webkit-transition-delay: 0.1s;
+    }
+    .shouldersPlaced{
+        transition-delay: 0.2s;
+        -webkit-transition-delay: 0.2s;
+    }
+    .mouthPlaced{
+        transition-delay: 0.3s;
+        -webkit-transition-delay: 0.3s;
+    }
+    .eyesPlaced{
+        transition-delay: 0.4;
+        -webkit-transition-delay: 0.4s;
+    }
+    .nosePlaced{
+        transition-delay: 0.8s;
+        -webkit-transition-delay: 0.8s;
+    }
+    /*-----------------------------------cv part---------------------------------------*/
     #main_content_box{
         font-size: 1.2vw;
         display: flex;
+    }
+    #main_content_box ul{
+        line-height: 1.5;
     }
     #left_main_content{
         width: 15%;
